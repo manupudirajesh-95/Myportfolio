@@ -1,0 +1,385 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+}
+
+body {
+    transition: background 0.5s ease;
+}
+
+.main-container {
+    background: linear-gradient(to bottom right, #f9f9f9, #e0f7ff);
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.navbar{
+    background-color: #0a5690;
+}
+.navbar-brand{
+
+    font-family: 'Poppins', Sans-Serif;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+.nav-link{
+
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-family: "Monoto";
+    font-weight: 500;
+}
+.nav-link:hover{
+
+    text-decoration: underline;
+    font-size: large;
+    color: #000000; 
+}
+
+.top-space{
+
+    padding-top: 100px;
+}
+.main-card{
+
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    background-color: #d9edff;
+    border-radius: 10px;
+    padding: 2rem;
+    
+}
+.main-heading{
+
+    transition: all 0.3s ease;
+    color: transparent;
+    background-image: linear-gradient( #6A5ACD, #1A1A80);
+    background-clip: text;
+    font-family: "Sans-Serif";
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+}
+.main-description{
+
+    text-align: center;
+    font-family: "Sans-Serif";
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: #000000;
+    line-height: 1.6;
+    
+}
+.main-image{
+
+    border-radius: 10px;
+    margin: 25px;
+    
+}
+.main-button{
+
+    width: 148px;
+    height: 40px;
+    border-radius: 10px;
+    border-width: 0px;
+    background-color:  #322392;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 1.1rem;
+    
+}
+.main-button:hover{
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ffffff;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.About-Me {
+    background-image: linear-gradient( 90deg, #4a00e0, #8e2de2);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Bree Serif', serif;
+    font-size: 2.4rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.about-description {
+
+    color: #0e0e0e;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: justify;
+    padding: 0 1rem;
+}
+.img-me{
+
+    height: 250px;
+    width: 250px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+}
+.main-card1{
+
+    background: linear-gradient(to right, #f2f7ff, #e9f0ff);
+    border-radius: 12px;
+    padding: 2rem;
+}
+
+.Education-Title {
+    color: #1a1a80; 
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.education-me {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.6;
+    background-color: #eef6ff;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    
+}
+
+.main-card2{
+
+   background-color: #a0c1e6;
+    border-radius: 12px;
+    padding: 2rem;
+    text-align: center;
+}
+
+.edu-img{
+
+
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 1.1rem;
+    margin-bottom: 1rem;
+}
+.tech-card {
+    background-color: #cddfef;
+    border-radius: 12px;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+.Tech {
+    font-family: 'Bree Serif', serif;
+    font-size: 2rem;
+    color: #003366;
+    text-align: center;
+}
+
+.tech-list {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 1.5rem;
+}
+
+.tech-item {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    
+}
+.techname{
+    margin-right: 0.5rem;
+    font-size: 1.05rem;
+    font-weight: bold;
+}
+
+.project-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.2s ease-in-out;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project {
+  font-family: 'Poppins', sans-serif;
+  color: #0d3b66;  
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 30px 0;  
+  text-decoration: underline; 
+
+}
+
+.carousel-title {
+  font-family: 'Poppins', sans-serif;
+  color: #0077b6;  
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.carousel-description {
+  font-family: 'Roboto', sans-serif;
+  color: #333333; 
+  font-size: 1rem;
+  font-weight: 400; 
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.main-button1 {
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  background-color: #0d6efd;
+  color: #ffffff;
+  padding: 10px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.main-button1:hover {
+  background-color: #0a58ca;
+  transform: scale(1.05);
+}
+.carousel-img {
+  border-radius: 12px;             
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-height: 400px;                
+  object-fit: cover;              
+}
+
+
+.certifications-section {
+  background: linear-gradient(to bottom, #e6f4f9, #f5fcff);
+  padding: 60px 20px;
+  text-align: center;
+  border-radius: 12px;
+}
+
+
+.c-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #00796b; 
+  margin-bottom: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 0.5px;
+}
+
+
+.button {
+  padding: 14px 70px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+.training-btn {
+  background-color: #0a6dff; 
+}
+
+.training-btn:hover {
+  background-color: #0056d2;
+  transform: translateY(-2px);
+}
+
+
+.internship-btn {
+  background-color: #15803d; 
+}
+
+.internship-btn:hover {
+  background-color: #11632f;
+  transform: translateY(-2px);
+}
+
+.con-card {
+  padding: 60px 20px;
+  background: #f8f9fa;
+  border-radius: 16px;
+  margin-bottom: 1.5rem;
+  
+}
+
+.con-title{
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.con-para {
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.card1-con
+{
+  border-radius: 16px;
+}
+.card1-con input,
+.card1-con textarea {
+  width: 100%;
+  margin-bottom: 18px;
+  padding: 10px;
+  border-width: 1px ;
+  border-style: solid;
+  border-color: #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.nav-link1{
+
+    color: #000000;
+    font-size: 1.1rem;
+    font-family: "Monoto";
+    font-weight: 500;
+    text-decoration: none;
+}
+.nav-link1:hover{
+  
+    font-size: large;
+    color: #410fe2; 
+}
+
+.footer{
+
+  background-color:  #0a5690;
+  text-align: center;
+  color: #ffffff;
+  margin-top: auto;
+}
+
+
